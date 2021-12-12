@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clock {
+    background: #333;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.clock-time,
+.clock-ampm {
+    font-family: 'Concert One', sans-serif;
+    font-size: 30px;
+    color: #fff;
+}
+
+.clock-time {
+    font-size: 40px;
+}
